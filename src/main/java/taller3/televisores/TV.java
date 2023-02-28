@@ -76,7 +76,12 @@ public class TV {
         return numTV;
     }
     public static void setNumTV( int numero) {
-    	this.numTV+numero;
+    	if(numero==0){
+
+        }
+        else{
+           this.numTV++; 
+        }
     }
 
     public void canalUp() {
