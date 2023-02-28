@@ -75,7 +75,9 @@ public class TV {
     public static int getNumTV() {
         return numTV;
     }
-
+    public static void setNumTV( int numTV) {
+           this.numTV++; 
+        }
 
     public void canalUp() {
         if (estado && canal < 120) {
